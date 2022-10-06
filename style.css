@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNjnOBMWzomeU-xqglUo3pGhJjk4Z4rQHvdA&usqp=CAU);
+    background-size: cover;
+}
+nav{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+}
+.logo
+{   
+    background-color: orange;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    font-size: larger;
+    
+}
+nav ul{
+    flex: 2;
+    float: left;
+    margin-left: 20px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 50px;
+    font-size: large;
+}
+.Buy
+{
+    margin-right: 60px;
+    background: white;
+    font-size: larger;
+    padding: 10px;
+    border: 2px solid aqua;
+    
+}
+ul li a{
+    color: grey;
+    font-weight: bold;
+}
